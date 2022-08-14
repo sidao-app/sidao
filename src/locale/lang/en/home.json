@@ -4,6 +4,6 @@
     "home": "Home",
     "settings": "Settings",
     "title": "Sidao is Great!",
-    "welcome": "Hi Sidao!"
+    "welcome": "Welcome Sidao on the {{val, datetime}}!"
   }
 }

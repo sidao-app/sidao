@@ -9,7 +9,19 @@ export default function HomeScreen() {
   return (
     <View style={styles.container}>
       <Text>{t('demoScope.title')}</Text>
-      <Text>{t('demoScope.welcome')}</Text>
+      <Text>
+        {t('demoScope.welcome', {
+          val: new Date(),
+          formatParams: {
+            val: {
+              weekday: 'long',
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+            },
+          },
+        })}
+      </Text>
     </View>
   );
 }

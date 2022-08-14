@@ -19,7 +19,7 @@ const Selector = () => {
   return (
     <View style={styles.container}>
       <View style={styles.row}>
-        <Text style={styles.title}>{t('select_language')}</Text>
+        <Text style={styles.title}>{t('selectLanguage')}</Text>
         <Ionicons color="#444" size={28} name="ios-language-outline" />
       </View>
       <ButtonGroup

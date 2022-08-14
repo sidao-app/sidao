@@ -3,6 +3,6 @@
   "demoScope": {
     "home": "主页",
     "settings": "设置",
-    "welcome": "思蹈你好"
+    "welcome": "欢迎思蹈时刻 {{val, datetime}}!"
   }
 }
