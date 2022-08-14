@@ -1,8 +1,0 @@
-{
-  "_comment": "src/translations/json/zh-CN.json",
-  "demoScope": {
-    "home": "主页",
-    "settings": "设置",
-    "welcome": "欢迎思蹈时刻 {{val, datetime}}!"
-  }
-}
