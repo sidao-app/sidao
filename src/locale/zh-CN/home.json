@@ -1,0 +1,8 @@
+{
+  "_comment": "src/translations/json/zh-CN.json",
+  "demoScope": {
+    "home": "主页",
+    "settings": "设置",
+    "welcome": "思蹈你好"
+  }
+}

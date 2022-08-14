@@ -1,0 +1,9 @@
+{
+  "_comment": "Home screen texts",
+  "demoScope": {
+    "home": "Home",
+    "settings": "Settings",
+    "title": "Sidao is Great!",
+    "welcome": "Hi Sidao!"
+  }
+}

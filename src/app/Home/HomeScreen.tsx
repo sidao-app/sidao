@@ -1,14 +1,16 @@
 import { StyleSheet, View } from 'react-native';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { Text } from '@rneui/themed';
 
-export default function App() {
+import { useTranslation } from 'react-i18next';
+
+export default function HomeScreen() {
+  const { t } = useTranslation('home');
+
   return (
-    <SafeAreaProvider>
-      <View style={styles.container}>
-        <Text>Hello, Sidao!</Text>
-      </View>
-    </SafeAreaProvider>
+    <View style={styles.container}>
+      <Text>{t('demoScope.title')}</Text>
+      <Text>{t('demoScope.welcome')}</Text>
+    </View>
   );
 }
 
