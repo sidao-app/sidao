@@ -21,8 +21,6 @@ export default function RootNavigator() {
             }
             return <Ionicons name={iconName!} size={size} color={color} />;
           },
-          tabBarActiveTintColor: 'tomato',
-          tabBarInactiveTintColor: 'gray',
           headerShown: false,
         })}
       >

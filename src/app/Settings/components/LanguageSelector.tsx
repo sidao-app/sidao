@@ -7,7 +7,7 @@ const Selector = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   return (
-    <View style={styles.container}>
+    <>
       <View style={styles.row}>
         <Text style={styles.title}>Select a Language</Text>
         <Ionicons color="#444" size={28} name="ios-language-outline" />
@@ -20,15 +20,11 @@ const Selector = () => {
         }}
         containerStyle={styles.buttonGroup}
       />
-    </View>
+    </>
   );
 };
 
 const styles = StyleSheet.create({
-  container: {
-    paddingTop: 60,
-    paddingHorizontal: 16,
-  },
   row: {
     flexDirection: 'row',
     alignItems: 'center',

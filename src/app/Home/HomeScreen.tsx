@@ -1,11 +1,12 @@
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet } from 'react-native';
 import { Text } from '@rneui/themed';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function HomeScreen() {
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <Text>Hello Sidao!</Text>
-    </View>
+    </SafeAreaView>
   );
 }
 
